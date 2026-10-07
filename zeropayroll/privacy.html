@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy | Zero Payroll</title><link rel="stylesheet" href="style.css"></head>
+<body><main>
+<h1>Privacy Policy</h1>
+<p class="meta">Zero Payroll control tool · effective 7 October 2026</p>
+
+<p>This policy explains how the Zero Payroll control tool (the "tool") handles data. The tool is an internal application run by the owner of the Zero Payroll YouTube channel. It is not offered to the public, and no one other than the channel owner signs in to it.</p>
+
+<h2>YouTube API Services</h2>
+<p>The tool uses YouTube API Services. By using the tool you are also bound by the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. Google's handling of data is described in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+<h2>What data the tool accesses</h2>
+<ul>
+<li>The channel owner's Google account authorization (an OAuth token) for the Zero Payroll channel only.</li>
+<li>Metadata of the channel's own videos (titles, descriptions, tags, privacy status, publish time) that the tool uploads and schedules.</li>
+<li>Public comments posted under the channel's own videos: comment text, author display name and channel ID, and time.</li>
+<li>Aggregated YouTube Analytics reports for the channel (views, watch time, average view percentage, subscribers gained and lost, traffic sources). These contain no personal data about individual viewers.</li>
+</ul>
+
+<h2>How the data is used</h2>
+<ul>
+<li>To upload the channel's own videos, set their thumbnails and schedule their publication.</li>
+<li>To show new comments to the channel owner in a private Telegram chat and, only after the owner confirms, post the owner's reply under the comment.</li>
+<li>To draft a suggested reply: the comment text, the commenter's display name and the video title are sent to Anthropic's Claude API, which returns a draft. The owner reviews every draft before anything is posted. See the <a href="https://www.anthropic.com/legal/privacy">Anthropic Privacy Policy</a>.</li>
+<li>To send the channel owner a weekly analytics summary in the same private Telegram chat. See the <a href="https://telegram.org/privacy">Telegram Privacy Policy</a>.</li>
+</ul>
+<p>The data is not sold, not used for advertising, not used to build profiles of viewers, and not shared with anyone else.</p>
+
+<h2>Storage and retention</h2>
+<ul>
+<li>The OAuth token is stored on infrastructure controlled by the channel owner, readable only by the tool.</li>
+<li>Comment IDs are kept to avoid showing the same comment twice. Comment text and author names are kept no longer than 30 days.</li>
+<li>Analytics data is not stored: it is fetched, summarized and sent to the owner.</li>
+</ul>
+
+<h2>Revoking access and deletion</h2>
+<p>The channel owner can revoke the tool's access to the Google account at any time at <a href="https://security.google.com/settings/security/permissions">Google security settings</a>. After access is revoked, stored YouTube data is deleted within 30 days. Anyone whose comment was processed can ask for its deletion through the contact below.</p>
+
+<h2>Contact</h2>
+<p>Telegram: <a href="https://t.me/zeropayroll">t.me/zeropayroll</a></p>
+
+<nav><a href="index.html">Home</a> · <a href="terms.html">Terms of Service</a></nav>
+</main></body></html>
